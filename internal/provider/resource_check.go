@@ -69,13 +69,13 @@ func checkResource() *schema.Resource {
 				Default:     "200-302",
 			},
 			"up_confirmations_threshold": {
-				Type:        schema.TypeString,
+				Type:        schema.TypeInt,
 				Optional:    true,
 				Description: "How many subsequent \"up\" responses need to occur before Binocs creates an incident and triggers notifications. Minimum is 1 and maximum is 10.",
 				Default:     2,
 			},
 			"down_confirmations_threshold": {
-				Type:        schema.TypeString,
+				Type:        schema.TypeInt,
 				Optional:    true,
 				Description: "How many subsequent \"down\" responses need to occur before Binocs closes an incident and triggers \"recovery\" notifications. Minimum is 1 and maximum is 10.",
 				Default:     2,
