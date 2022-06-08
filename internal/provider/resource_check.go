@@ -64,7 +64,7 @@ func checkResource() *schema.Resource {
 			"resource": {
 				Type:        schema.TypeString,
 				Required:    true,
-				Description: "The resource to check; a URL in case of a HTTP(S) resource, or HOSTNAME:PORT in case of a TCP resource.",
+				Description: "The resource to check; a valid URL in case of a HTTP(S) resource, or tcp://{HOSTNAME}:{PORT} in case of a TCP resource.",
 				ForceNew:    true,
 				ValidateFunc: func(i interface{}, s string) (_ []string, errors []error) {
 					v, ok := i.(string)
