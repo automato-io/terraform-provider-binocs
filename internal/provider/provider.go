@@ -25,8 +25,8 @@ func New() func() *schema.Provider {
 			},
 			ConfigureFunc: configureProvider,
 			ResourcesMap: map[string]*schema.Resource{
-				"binocs_check": checkResource(),
-				// "binocs_channel": channelResource(),
+				"binocs_check":   checkResource(),
+				"binocs_channel": channelResource(),
 			},
 		}
 	}

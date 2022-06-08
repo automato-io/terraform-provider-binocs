@@ -3,7 +3,7 @@ module github.com/automato-io/terraform-provider-binocs
 go 1.17
 
 require (
-	github.com/automato-io/binocs-client-go v0.1.0
+	github.com/automato-io/binocs-client-go v0.1.3
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.17.0
 )
 
@@ -44,7 +44,7 @@ require (
 	golang.org/x/sys v0.0.0-20220520151302-bc2c85ada10a // indirect
 	golang.org/x/text v0.3.7 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
-	google.golang.org/genproto v0.0.0-20220602131408-e326c6e8e9c8 // indirect
+	google.golang.org/genproto v0.0.0-20220607223854-30acc4cbd2aa // indirect
 	google.golang.org/grpc v1.47.0 // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 )

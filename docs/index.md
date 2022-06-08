@@ -45,6 +45,17 @@ resource "binocs_check" "my_website" {
   up_confirmations_threshold   = 3
   down_confirmations_threshold = 2
 }
+
+# configure a notification channel
+
+resource "binocs_channel" "olivia_email" {
+  alias  = "Olivia (NL)"
+  handle = "olivia@example.com"
+  type   = "email"
+  checks = [
+      binocs_check.my_website.id,
+  ]
+}
 ```
 
 ## Schema
