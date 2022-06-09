@@ -2,7 +2,7 @@
 page_title: "binocs_check Resource - terraform-provider-binocs"
 subcategory: "Monitoring"
 description: |-
-  Use `binocs_check` Resource to manage a [Binocs](https://binocs.sh) uptime monitoring check.
+  Use `binocs_check` Resource to manage a Binocs (https://binocs.sh) uptime monitoring check.
 ---
 
 # binocs_check (Resource)

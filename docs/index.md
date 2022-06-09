@@ -2,7 +2,7 @@
 page_title: "Binocs Provider"
 subcategory: "Monitoring"
 description: |-
-    This Terraform Provider manages [Binocs](https://binocs.sh) uptime monitoring checks and notification channels. Binocs is a CLI-first uptime and performance monitoring tool for websites, applications and APIs.
+    This Terraform Provider manages Binocs (https://binocs.sh) uptime monitoring checks and notification channels. Binocs is a CLI-first uptime and performance monitoring tool for websites, applications and APIs.
 ---
 
 # Binocs Provider

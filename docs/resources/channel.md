@@ -2,7 +2,7 @@
 page_title: "binocs_channel Resource - terraform-provider-binocs"
 subcategory: "Monitoring"
 description: |-
-  Use `binocs_channel` Resource to manage a [Binocs](https://binocs.sh) uptime monitoring notification channel.
+  Use `binocs_channel` Resource to manage a Binocs (https://binocs.sh) uptime monitoring notification channel.
 ---
 
 # binocs_channel (Resource)
